@@ -48,7 +48,7 @@ class CircularProgressView: UIView {
     private struct Animation {
         var rotationZ: CABasicAnimation {
             let animation: CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
-            animation.duration = 2
+            animation.duration = 1
             animation.repeatCount = HUGE
             animation.fromValue = NSNumber(value: 0.0)
             animation.toValue = NSNumber(value: 2 * Float.pi)
